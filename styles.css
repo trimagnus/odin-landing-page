@@ -1,0 +1,39 @@
+/* Set variables for project styling 
+    Define (in :root):   --variable-name: value;
+    Use:                 var(--variable-name);
+    Fallback:            var(--variable-name, "fallback");
+*/
+:root {
+    /* dark background color (hero and footer) */
+    --hero-bg-color: #1F2937;
+
+    /* Hero Main text */
+    --hero-main-font-size: 48px;
+    --hero-main-font-weight: 900;
+    --hero-main-font-color: #F9FAF8;
+
+    /* Hero Secondary text, Header Link Text */
+    --hero-secondary-font-size: 18px;
+    --hero-secondary-font-color: #E5E7EB;
+
+    /* Header Logo Text */
+    --header-logo-font-size: 24px;
+    --header-logo-font-color: #F9FAF8;
+
+    /* Button color, call to action background color */
+    --cta-color: #3882F6;
+
+    /* Information header text */
+    --information-font-size: 36px;
+    --information-font-weight: 900;
+    --information-font-color: #1F2937;
+
+    /* Quote section background color */
+    --quote-bg-color: #E5E7EB;
+
+    /* Quote text */
+    --quote-font-size: 36px;
+    --quote-font-weight: 100;
+    --quote-font-style: italic;
+    --quote-font-color: #1F2937;
+}
