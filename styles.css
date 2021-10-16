@@ -36,6 +36,9 @@
     --quote-font-weight: 100;
     --quote-font-style: italic;
     --quote-font-color: #1F2937;
+
+    --container-width: 70%;
+    --container-max-width: 800px;
 }
 
 * {
@@ -55,7 +58,8 @@
 header {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: var(--container-width);
+    max-width: var(--container-max-width);
 }
 
 nav {
@@ -129,7 +133,8 @@ nav .nav-list {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
+    font-size: var(--hero-secondary-font-size);
+    color: var(--hero-secondary-font-color);
     margin: 40px 0;
 }
 
@@ -171,6 +176,8 @@ nav .nav-list {
     display: flex;
     flex-direction: column;
     width: 40%;
+    max-width: 600px;
+    min-width: 400px;
     margin: 100px 0;
 }
 
@@ -199,7 +206,8 @@ nav .nav-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    font-size: var(--hero-secondary-font-size);
+    color: var(--hero-secondary-font-color);
     background-color: var(--cta-color);
     border-radius: 10px;
     padding: 30px 60px;
