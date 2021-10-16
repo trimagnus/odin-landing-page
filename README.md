@@ -1,4 +1,4 @@
-# odin-landing-page
+# Odin Landing Page
 This is a static website using just HTML and CSS, but it demonstrates many
 of the techniques learned in the course to this point (and a few new ones).
 A hero section at the top with logo and nav, main content section, a call
